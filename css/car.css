@@ -1,0 +1,169 @@
+ * {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+ }
+ :root {
+    --main-color--:#505050;
+    --scolor--:#a3a3a3;
+    --color--:#ffb900;
+    --hov--:#FCFCA4;
+ }
+
+ body {
+    background-image: url(/imgs/hakon-sataoen-yQ9mZzBdDAM-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    top: -21px;
+ }
+ body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000091;
+ }
+ .container {
+    margin: 0 100px;
+    z-index: 10;
+ }
+ .header {
+    position: relative;
+    margin:20px 0
+
+ }
+ .header .container .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+ }
+ .header .container .nav h1{
+    color: #FCF7F8;
+    font-weight: 900;
+    font-size: 40px;
+ }
+ .header .container  .nav ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+ }
+ .header .container  .nav ul li{
+    padding: 10px;
+    font-weight: 400;
+ }
+ .header .container  .nav ul li::before{
+    content: "";
+    bottom: 0;
+    left: 100px;
+    position: absolute;
+    height: 2px;
+    width: 280px;
+    background-color: #ff7600;
+    z-index: 100;
+ }
+ .header .container  .nav ul .one:hover li::before{
+   left: 405px;
+   width: 170px;
+ }
+
+
+ .header .container  .nav ul li a{
+    text-decoration: none;
+    color: #FCF7F8;
+ }
+ .home {
+    position: relative;
+    margin-top: 160px;
+
+ }
+ /* .home .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+ } */
+ .home .container .text {
+    padding-right: 400px;
+
+ }
+ .home .container .text h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+ }
+ .home .container .text p{
+    color: #ccc;
+    padding-bottom:10px ;
+    line-height: 1.7;
+    font-size: 20px;
+ }
+ .home .container .text input{
+    background-color: #af0808;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+ }
+ .home .container .text input:hover{
+    background-color: #280808;
+ }
+
+
+ /* .home .container .fix{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #120e0edb;
+ }
+ .home .container .fix h3{
+    color: white;
+
+ }
+ .home .container .fix form{
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+ }
+ .home .container .fix form .name{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffffa6;
+    margin-bottom: 20px;
+ }
+ .home .container .fix form .email{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffffa6;
+    margin-bottom: 20px;
+ }
+ .home .container .fix form p{
+    color: white;
+    font-size: 25px;
+
+ }
+ .home .container .fix form .area{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffffa6;
+    margin-bottom: 20px;
+    height: 80px;
+
+ }
+
+
+
+
+
+
+
+ */
+
